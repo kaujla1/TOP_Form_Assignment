@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+html {
+  font-size: 1vw;
+}
+
 body {
+  font-family: 'Poppins', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   padding: 0;
   margin: 0;
@@ -8,11 +15,30 @@ img {
   height: 100vh;
   width: auto;
   padding: 0;
-  margin: 0;
+}
+
+.card-container {
+  position: relative;
+  flex: 1;
+}
+
+.card-body {
+  position: absolute;
+  width: 100%;
+  top: 8rem;
+  text-align: center;
+  background: #00000077;
+  color: white;
 }
 
 .header-message {
+  font-weight: 700;
+  color: #5D653E;
   height: 33vh;
+  background-color: #eeeeeea1;
+  box-sizing: border-box;
+  padding: 85px 300px 0 75px;
+  flex: 1;
 }
 
 form {
@@ -20,12 +46,60 @@ form {
   flex-direction: column;
 }
 
-.form-control-containers {
+section {
+  height: 33vh;
+  font-size: 0.75rem;
+  padding-left: 75px;
+}
+
+.contact-section {
+  margin-bottom: 10px;
+  box-shadow: 0 9px 7px 0px rgb(202 201 201 / 70%);
+}
+
+.form-header {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.form-right {
+  padding-left: 75px;
+}
+
+label,
+input {
+  display: block;
+}
+
+input {
+  font-family: 'Poppins', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+  width: 12vw;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1.5px solid rgb(202 201 201);
+  margin-bottom: 10px;
+}
+
+.contact-control-containers {
   display: flex;
 }
 
+.button-section {
+  background-color: #eeeeeea1;
+}
 
+button {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: white;
+  background-color: #5D653E;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 25px;
+}
 
 a {
+  color: #5D653E;
+  font-weight: 700;
   text-decoration: none;
 }
