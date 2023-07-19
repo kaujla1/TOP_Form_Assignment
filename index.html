@@ -10,54 +10,61 @@
   </head>
 
   <body>
-    <img src="benjamin-voros-jv15x2Gs5F8-unsplash.jpg" alt="looking out an airplane window">
+    <div class="card-container">
+      <img class="card-image" src="aleksandra-dementeva-wPBbPkZZu8E-unsplash.jpg" alt="looking out an airplane window">
+      
+      <div class="card-body">
+        <h1>Bali Adventures</h1>
+      </div>
+    </div>
+
     <div class="right-side">
       <div class="header-message">
-        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started. 
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p> 
 
-        You know you want to.
+        <p>You know you want to.</p>
       </div>
       
       <form action="" method="post" class="sign-up-form">
-        <div class="all-form-controls">
+        <section class="contact-section">
           <div class="form-header"> <!--Not sure if this div is needed-->
-            <h2>Let's do this!</h2>
+            <p>Let's do this!</p>
           </div>
 
-          <div class="form-control-containers">
+          <div class="contact-control-containers">
             <div class="form-left">
               <div>
-                <label for="first-name">First Name</label>
-                <input type="text" id="first-name" name="first-name">
+                <label for="first-name">First Name*</label>
+                <input type="text" id="first-name" name="first-name" required>
               </div>
               <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com" required>
               </div>
               <div>
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password">
+                <label for="password">Password*</label>
+                <input type="password" id="password" name="password" required>
               </div>
             </div>
   
             <div class="form-right">
               <div>
-                <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" name="last-name">
+                <label for="last-name">Last Name*</label>
+                <input type="text" id="last-name" name="last-name" required>
               </div>
               <div>
                 <label for="phone-number">Phone Number</label>
                 <input type="tel" id="phone-number" name="phone-number">
               </div>
               <div>
-                <label for="confirm-password">Confirm Password</label>
-                <input type="password" id="confirm-password" name="confirm-password">
+                <label for="confirm-password">Confirm Password*</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="buttons">
+        <section class="button-section">
           <div>
             <button>Create Account</button>
           </div>
@@ -65,7 +72,7 @@
           <div>
             <p>Already have an account? <a href="https://www.google.com">Log in</a></p>
           </div>
-        </div>        
+        </section>        
       </form>
     </div>
   </body>
