@@ -94,6 +94,7 @@ input {
 input {
   font-family: 'Poppins', sans-serif, Tahoma, Geneva, Verdana, sans-serif;
   width: 12vw;
+  height: auto;
   padding: 5px 10px;
   border-radius: 8px;
   border: 1.5px solid rgb(202 201 201);
